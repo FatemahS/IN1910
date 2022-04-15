@@ -171,19 +171,6 @@ ArrayList find_primes(){
 
 };
 
-/*
-void test_primes(){
-    ArrayList primes = find_primes();
-    int expected[] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29};
-    for(int i=0; i<10; i++){
-        if(expected[i] != primes[i]){
-            throw range_error("Enten lengden eller verdiene stemmer ikke");
-    }
-    primes.print();
-};
-*/
-
-
 int main()
 {
     ArrayList a;
